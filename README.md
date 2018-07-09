@@ -12,3 +12,9 @@ run container with exposed port 80 map to localhost:8080
 ```
 docker run -p 8080:80 myreactapp
 ```
+
+run in detached mode 
+
+```
+docker run -p -d 8080:80 myreactapp
+```
